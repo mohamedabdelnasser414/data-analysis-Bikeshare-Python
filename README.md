@@ -121,3 +121,23 @@ Based on the analysis of the dataset, the following insights were obtained regar
    * Least Popular Age Groups: Users between 75 and 80 years had the fewest trips, with only 916 trips. The age group of 20 to 25 years recorded 2,923 trips, which is also relatively low.
 
 <img width="451" alt="image" src="https://github.com/mohamedabdelnasser414/data-analysis-Bikeshare-Python/assets/56372404/c5c83244-e36b-4893-928f-400e2f563c92">
+
+### Cyclical Pattern in Each Hour and Each Day
+
+The analysis of the dataset reveals interesting cyclical patterns in Divvy Bikes usage by hour and by day, which provide valuable insights for resource management and operational adjustments.
+
+#### Cyclical Pattern By Hour:
+
+   * Peak Hours: Divvy bikes are most heavily utilized during the afternoon hours, with two peak periods at 5 pm and 4 pm, recording 49,968 and 39,270 trips, respectively. Additionally, in the morning, there are peak periods at 8 am and 7 am, with 37,930 and 27,218 trips, respectively. These peak times suggest that users frequently use Divvy Bikes for their commute to and from work. These commuting hours demonstrate the high demand for bike-sharing services as an efficient mode of transportation during rush hours.
+   * Lowest Usage Hours: The usage of Divvy Bikes is relatively low during the late-night and early morning hours, from midnight to 5 am. During this period, the number of trips declines significantly, indicating minimal bike usage during these hours.
+
+<img width="549" alt="image" src="https://github.com/mohamedabdelnasser414/data-analysis-Bikeshare-Python/assets/56372404/73a0338b-28be-41ad-8162-4574f733ed6e">
+
+#### Cyclical Pattern by Day:
+
+   * Weekdays vs. Weekends: Analyzing the "day_of_week" column reveals that weekdays (Monday to Friday) exhibit relatively similar numbers of trips, showing minimal variation between each day. Thursday records the highest number of trips, with a total of 66,903. This suggests consistent bike usage during weekdays, likely for work and daily activities.
+   * Weekend Usage: On Saturdays and Sundays, the number of trips decreases significantly. Saturdays have 35,302 trips, and Sundays have 27,999 trips, representing a 50% reduction in trips compared to weekdays. The lower usage during the weekend indicates a shift in biking behavior, where fewer people rely on bike-sharing services for work-related commutes, and the demand is more leisure-oriented.
+
+<img width="493" alt="image" src="https://github.com/mohamedabdelnasser414/data-analysis-Bikeshare-Python/assets/56372404/5623e935-5869-4a71-a34d-51799cde3dc4">
+
+These cyclical patterns help identify the busiest hours and days for Divvy Bikes usage, enabling resource allocation and operational adjustments to cater to user demand effectively. Understanding these usage trends assists in optimizing bike distribution, station management, and overall service efficiency, enhancing the overall biking experience for users in the city.
