@@ -1,4 +1,4 @@
-# data-analysis-Bikeshare-Python
+# data-analysis-DivvyBikes-Python
 
 # Introduction  
 Bicycle-sharing systems have become increasingly popular in big cities, offering the public a convenient and flexible transportation option for short-distance trips. Among these systems is Divvy Bikes, serving Chicagoland by providing residents and visitors with an affordable and enjoyable way to explore and navigate Chicago and Evanston.
