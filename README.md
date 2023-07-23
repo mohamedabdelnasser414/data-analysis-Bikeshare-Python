@@ -87,3 +87,37 @@ After cleaning and preparing the dataset, valuable insights have been derived fr
 
     * Subscription Riders: The average trip duration for subscription riders was around 11 minutes, which is lower than the overall mean trip duration.
     * Casual Riders: Casual riders, who hold one-day passes, had an average trip duration of approximately 31 minutes, which is significantly higher than the overall mean trip duration. This indicates that casual riders tend to use the bikes for longer durations compared to subscribers.
+
+### Popular Start and End Stations and Popular Trip Routes
+
+* Popular Start Stations: The "from_station_name" column was used to identify the most popular start stations for Divvy trips. The station with the highest number of trips originating from it is the "Clinton St & Washington Blvd" station, with a total of 7,699 trips.
+
+* Popular End Stations: Similarly, the "to_station_name" column was analyzed to determine the most popular end stations for Divvy trips. Interestingly, the "Clinton St & Washington Blvd" station is also the most popular end station, with 7,699 trips concluding at this location.
+
+* Popular Trip Routes: By grouping the "from_station_name" and "to_station_name" columns together, the most popular trip routes taken by Divvy users were identified. The route from "Michigan Ave & Washington St" station to "Clinton St & Washington Blvd" station emerged as the most popular route, with a total of 513 trips.
+
+### Divvy Bikes User Types and Demographic Information
+
+Based on the analysis of the dataset, the following insights were obtained regarding Divvy Bikes usage by user types and demographic information during the first quarter of 2019:
+
+#### Divvy Bikes Usage by User Types:
+
+   * Subscribers: There were a total of 341,906 trips made by subscribers, representing 94% of the total trips recorded. Subscribers are the dominant user group, accounting for the majority of rides.
+   * Customers: Customers, who purchased one-day passes, made 23,163 trips, which is approximately 6% of the total trips. They represent a smaller portion of the overall ridership.
+
+<img width="355" alt="image" src="https://github.com/mohamedabdelnasser414/data-analysis-Bikeshare-Python/assets/56372404/76eb0bfe-43cb-4586-a101-3eb53cfffd78">
+
+#### Divvy Bikes Usage by Users' Gender:
+
+   * Male Users: The dataset recorded 278,440 trips made by male users, constituting approximately 81% of the total trips.
+   * Female Users: Female users made 66,918 trips, which accounts for around 19% of the total trips. Male users tend to use Divvy Bikes more frequently than female users.
+
+<img width="367" alt="image" src="https://github.com/mohamedabdelnasser414/data-analysis-Bikeshare-Python/assets/56372404/251a0405-349a-4dd5-aab2-38ddfccd574c">
+
+#### Divvy Bikes Usage by Users' Ages:
+
+   * Age Groups: The dataset allowed the calculation of user age based on birth year. User ages were divided into 12 groups, each spanning 5 years.
+   * Popular Age Group: Users between 30 and 35 years of age recorded the highest number of trips, with a total of 87,691 trips. The age group of 35 to 40 years came in second place, with 71,199 trips.
+   * Least Popular Age Groups: Users between 75 and 80 years had the fewest trips, with only 916 trips. The age group of 20 to 25 years recorded 2,923 trips, which is also relatively low.
+
+<img width="451" alt="image" src="https://github.com/mohamedabdelnasser414/data-analysis-Bikeshare-Python/assets/56372404/c5c83244-e36b-4893-928f-400e2f563c92">
