@@ -143,6 +143,6 @@ The analysis of the dataset reveals interesting cyclical patterns in Divvy Bikes
 These cyclical patterns help identify the busiest hours and days for Divvy Bikes usage, enabling resource allocation and operational adjustments to cater to user demand effectively. Understanding these usage trends assists in optimizing bike distribution, station management, and overall service efficiency, enhancing the overall biking experience for users in the city.
 
 
-References 
+# References 
 Divvy Bikes Official Website https://divvybikes.com  
 Dataset downloading link https://divvy-tripdata.s3.amazonaws.com/index.html
